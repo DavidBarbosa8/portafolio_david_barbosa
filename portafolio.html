@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Servicios - [Tu Nombre]</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px 0;
+            flex-wrap: wrap; /* Permite que los enlaces se ajusten en pantallas pequeñas */
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            flex: 1 1 auto; /* Hace que los enlaces se ajusten al espacio disponible */
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px 0;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .service, .project, .certification, .client, .provider {
+            background-color: #f9f9f9;
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 5px solid #4CAF50;
+            border-radius: 5px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media Queries para Responsive Design */
+        @media (max-width: 768px) {
+            header {
+                padding: 20px 10px;
+            }
+            nav a {
+                padding: 10px;
+                font-size: 14px;
+            }
+            section {
+                padding: 20px 10px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 28px;
+            }
+            nav a {
+                flex: 1 1 100%; /* Hace que los enlaces ocupen toda la línea en móviles */
+                padding: 10px;
+                font-size: 12px;
+            }
+            section {
+                margin: 10px 0;
+            }
+            .service, .project, .certification, .client, .provider {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Portafolio de Servicios</h1>
+        <p>[Tu Nombre] - Tecnólogo en Desarrollo de Software</p>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <a href="#presentacion">Presentación</a>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#mision-vision">Misión y Visión</a>
+        <a href="#certificaciones">Certificaciones</a>
+        <a href="#sociedades">Sociedades</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#proveedores">Proveedores</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Sección de Presentación -->
+    <section id="presentacion">
+        <h2>Presentación</h2>
+        <p>¡Hola! Soy <span class="highlight">[Tu Nombre]</span>, un <span class="highlight">Tecnólogo en Desarrollo de Software</span> con una pasión por crear soluciones tecnológicas innovadoras y eficientes. Con más de [X años] de experiencia, he trabajado en proyectos que van desde aplicaciones web hasta sistemas de automatización, siempre enfocado en entregar resultados de alta calidad.</p>
+        <p>Mi enfoque se centra en entender las necesidades del cliente y transformarlas en soluciones prácticas y escalables. ¡Espero poder colaborar contigo en tu próximo proyecto!</p>
+    </section>
+
+    <!-- Sección de Objetivos -->
+    <section id="objetivos">
+        <h2>Objetivos</h2>
+        <h3>Objetivo General</h3>
+        <p>Desarrollar soluciones de software que impulsen la eficiencia y el crecimiento de mis clientes, utilizando tecnologías modernas y metodologías ágiles.</p>
+        <h3>Objetivos Específicos</h3>
+        <ul>
+            <li>Crear aplicaciones web y móviles personalizadas.</li>
+            <li>Automatizar procesos para mejorar la productividad.</li>
+            <li>Brindar consultoría en desarrollo de software.</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Misión y Visión -->
+    <section id="mision-vision">
+        <h2>Misión y Visión</h2>
+        <h3>Misión</h3>
+        <p>Ofrecer soluciones de software innovadoras y de alta calidad que satisfagan las necesidades de mis clientes, contribuyendo a su éxito y crecimiento.</p>
+        <h3>Visión</h3>
+        <p>Ser reconocido como un referente en el desarrollo de software, destacándome por mi profesionalismo, creatividad y compromiso con la excelencia.</p>
+    </section>
+
+    <!-- Sección de Certificaciones -->
+    <section id="certificaciones">
+        <h2>Certificaciones</h2>
+        <div class="certification">
+            <h3>Certificación en Desarrollo Web</h3>
+            <p>Plataforma: [Nombre de la plataforma]</p>
+        </div>
+        <div class="certification">
+            <h3>Certificación en Desarrollo Móvil</h3>
+            <p>Plataforma: [Nombre de la plataforma]</p>
+        </div>
+    </section>
+
+    <!-- Sección de Sociedades -->
+    <section id="sociedades">
+        <h2>Sociedades</h2>
+        <p>Colaboro con las siguientes organizaciones y comunidades:</p>
+        <ul>
+            <li>[Nombre de la Sociedad 1]</li>
+            <li>[Nombre de la Sociedad 2]</li>
+        </ul>
+    </section>
+
+    <!-- Sección de Clientes -->
+    <section id="clientes">
+        <h2>Clientes</h2>
+        <div class="client">
+            <h3>[Nombre del Cliente 1]</h3>
+            <p>Proyecto: [Descripción breve del proyecto].</p>
+        </div>
+        <div class="client">
+            <h3>[Nombre del Cliente 2]</h3>
+            <p>Proyecto: [Descripción breve del proyecto].</p>
+        </div>
+    </section>
+
+    <!-- Sección de Proveedores -->
+    <section id="proveedores">
+        <h2>Proveedores</h2>
+        <div class="provider">
+            <h3>[Nombre del Proveedor 1]</h3>
+            <p>Servicio: [Descripción breve del servicio].</p>
+        </div>
+        <div class="provider">
+            <h3>[Nombre del Proveedor 2]</h3>
+            <p>Servicio: [Descripción breve del servicio].</p>
+        </div>
+        <div class="provider">
+            <h3>[Nombre del Proveedor 3]</h3>
+            <p>Servicio: [Descripción breve del servicio].</p>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <h3>Servicios Vigentes</h3>
+        <div class="service">
+            <h3>Desarrollo de Aplicaciones Web</h3>
+            <p>Creación de sitios web responsivos y aplicaciones web personalizadas.</p>
+        </div>
+        <div class="service">
+            <h3>Desarrollo de Aplicaciones Móviles</h3>
+            <p>Aplicaciones nativas e híbridas para iOS y Android.</p>
+        </div>
+        <h3>Servicios en Desarrollo</h3>
+        <div class="service">
+            <h3>Inteligencia Artificial</h3>
+            <p>Desarrollo de soluciones basadas en IA y machine learning.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Sistema de Gestión de Inventarios</h3>
+            <p>Desarrollo de una aplicación web para gestionar inventarios en tiempo real.</p>
+            <p>Tecnologías: React, Node.js, MongoDB.</p>
+        </div>
+        <div class="project">
+            <h3>App del Clima</h3>
+            <p>Aplicación móvil que muestra el clima actual usando una API.</p>
+            <p>Tecnologías: Flutter, API REST.</p>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contact-info">
+            <p>¿Listo para empezar tu proyecto? ¡Contáctame hoy mismo!</p>
+            <p>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+            <p>LinkedIn: <a href="[Enlace a LinkedIn]" target="_blank">[Tu Nombre en LinkedIn]</a></p>
+            <p>Teléfono: [Tu Número de Teléfono]</p>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
